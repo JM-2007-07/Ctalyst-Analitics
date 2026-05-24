@@ -190,6 +190,9 @@
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
+  .right-5 {
+    right: calc(var(--spacing) * 5);
+  }
   .right-\[-150px\] {
     right: -150px;
   }
@@ -231,6 +234,9 @@
   }
   .m-auto {
     margin: auto;
+  }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
@@ -345,6 +351,9 @@
   }
   .w-\[165px\] {
     width: 165px;
+  }
+  .w-\[188px\] {
+    width: 188px;
   }
   .w-\[377px\] {
     width: 377px;
@@ -708,6 +717,11 @@
       position: absolute;
     }
   }
+  .lg\:right-0 {
+    @media (width >= 64rem) {
+      right: calc(var(--spacing) * 0);
+    }
+  }
   .lg\:order-0 {
     @media (width >= 64rem) {
       order: 0;
@@ -716,6 +730,21 @@
   .lg\:order-1 {
     @media (width >= 64rem) {
       order: 1;
+    }
+  }
+  .lg\:mt-\[20px\] {
+    @media (width >= 64rem) {
+      margin-top: 20px;
+    }
+  }
+  .lg\:mt-\[40px\] {
+    @media (width >= 64rem) {
+      margin-top: 40px;
+    }
+  }
+  .lg\:ml-\[60px\] {
+    @media (width >= 64rem) {
+      margin-left: 60px;
     }
   }
   .lg\:block {
@@ -926,6 +955,11 @@
   .lg\:pt-\[20px\] {
     @media (width >= 64rem) {
       padding-top: 20px;
+    }
+  }
+  .lg\:pt-\[40px\] {
+    @media (width >= 64rem) {
+      padding-top: 40px;
     }
   }
   .lg\:pt-\[50px\] {
