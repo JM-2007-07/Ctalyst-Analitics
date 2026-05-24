@@ -379,6 +379,9 @@
   .w-\[188px\] {
     width: 188px;
   }
+  .w-\[198px\] {
+    width: 198px;
+  }
   .w-\[210px\] {
     width: 210px;
   }
@@ -538,6 +541,9 @@
   .rounded-\[48px\] {
     border-radius: 48px;
   }
+  .rounded-\[64px\] {
+    border-radius: 64px;
+  }
   .rounded-\[100px\] {
     border-radius: 100px;
   }
@@ -646,6 +652,9 @@
   .py-\[34px\] {
     padding-block: 34px;
   }
+  .py-\[48px\] {
+    padding-block: 48px;
+  }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
@@ -734,9 +743,17 @@
     --tw-font-weight: 600;
     font-weight: 600;
   }
+  .font-\[800\] {
+    --tw-font-weight: 800;
+    font-weight: 800;
+  }
   .font-\[900\] {
     --tw-font-weight: 900;
     font-weight: 900;
+  }
+  .font-\[8000\] {
+    --tw-font-weight: 8000;
+    font-weight: 8000;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -853,6 +870,11 @@
   .lg\:h-\[254px\] {
     @media (width >= 64rem) {
       height: 254px;
+    }
+  }
+  .lg\:h-\[282px\] {
+    @media (width >= 64rem) {
+      height: 282px;
     }
   }
   .lg\:h-\[346px\] {
@@ -993,6 +1015,11 @@
   .lg\:w-\[800px\] {
     @media (width >= 64rem) {
       width: 800px;
+    }
+  }
+  .lg\:w-\[1100px\] {
+    @media (width >= 64rem) {
+      width: 1100px;
     }
   }
   .lg\:w-\[1220\] {
