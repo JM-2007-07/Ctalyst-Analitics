@@ -763,6 +763,21 @@
       height: 480px;
     }
   }
+  .lg\:h-\[600px\] {
+    @media (width >= 64rem) {
+      height: 600px;
+    }
+  }
+  .lg\:h-\[610px\] {
+    @media (width >= 64rem) {
+      height: 610px;
+    }
+  }
+  .lg\:h-\[660px\] {
+    @media (width >= 64rem) {
+      height: 660px;
+    }
+  }
   .lg\:h-\[668px\] {
     @media (width >= 64rem) {
       height: 668px;
